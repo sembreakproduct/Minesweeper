@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Test test, The Chinese University of Hong Kong, LIC=04HMS-LAYAK-BZ0WC-51ZMK-14VUP-YFSZ0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard Cortex-M only  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      UL2CM3.DLL V1.155.8.0
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+C:\Users\Test.TLAB\Desktop\project\lab-5.uvprojx
+Project File Date:  11/26/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Lab-1'
+compiling main.c...
+User\main.c(378): warning:  #177-D: variable "minutes" was declared but never referenced
+                int minutes,seconds,i=0;
+User\main.c(378): warning:  #550-D: variable "seconds" was set but never used
+                int minutes,seconds,i=0;
+User\main.c(557): warning:  #223-D: function "rand" declared implicitly
+          x = rand() % GRID_WIDTH;   // Random X position
+User\main.c(734): warning:  #223-D: function "srand" declared implicitly
+        srand(SysTick->VAL*1000);
+User\main.c(906): warning:  #1-D: last line of file ends without a newline
+  }
+User\main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=7538 RO-data=1874 RW-data=124 ZI-data=2660  
+FromELF: creating hex file...
+".\Objects\_project.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Test.TLAB\Desktop\project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

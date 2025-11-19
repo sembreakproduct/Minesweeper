@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Board -I.\Core -I.\Fw_lib\inc -I.\User
+-I C:\Users\Test.TLAB\Desktop\lab-5\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="515" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\objects\global.o --omf_browse .\objects\global.crf --depend .\objects\global.d "Fw_lib\src\global.c"
